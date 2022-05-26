@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.tabs{
+    max-width: 600px;
+    margin: 50px auto;
+    background: lightgrey;
+}
+.tab_container{
+    display: flex;
+    font-size: 25px;
+}
+.tab_item{
+    padding: 10px 5px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.tab_item:hover{
+    border-bottom: 1px solid lightsteelblue;
+}
+
+.tab_item.active{
+    background: azure;
+    border-bottom: 1px solid lightsteelblue;
+}
+.body_container{
+    padding: 25px 20px;
+}
+.tab_content{
+    display: none;
+}
+.tab_content.active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
